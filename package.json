@@ -1,0 +1,31 @@
+{
+  "name": "training-timer",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dumenko111/training-timer.git",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /training-timer/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumenko111/training-timer.git"
+  },
+  "keywords": [],
+  "author": "Andriy Dumenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumenko111/training-timer/issues"
+  },
+    "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
+
